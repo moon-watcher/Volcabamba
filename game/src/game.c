@@ -15,7 +15,7 @@
 #include "player.h"
 
 
-#include "../inc/data/entities.h"
+#include "../inc/entities/players.h"
 
 //#include "stage1_e.h"
 
@@ -157,6 +157,9 @@ int game()
 
         goManagerInit ( &waObjects );
         player_init();
+
+
+
 
         displayOn(0);
 

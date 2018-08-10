@@ -39,10 +39,10 @@ SRC_S80+= $(wildcard $(SRC)/*.s80)
 SRC_C+= $(wildcard $(SRC)/../../libs/*.c)
 SRC_C+= $(wildcard $(SRC)/../libs/*.c)
 SRC_C+= $(wildcard $(SRC)/*.c)
-SRC_C+= $(wildcard $(SRC)/data/*.c)
 SRC_C+= $(wildcard $(SRC)/entities/*.c)
+SRC_C+= $(wildcard $(SRC)/objects/*.c)
 SRC_C+= $(wildcard $(SRC)/rooms/*.c)
-SRC_C+= $(wildcard $(SRC)/screens/*.c)
+SRC_C+= $(wildcard $(SRC)/scenes/*.c)
 
 
 
@@ -121,7 +121,7 @@ cleanDebug: cleandebug
 cleanAsm: cleanasm
 
 pre-build:
-	$(MKDIR) -p  $(SRC)/boot  out/libs  out/game/libs  out/game/src/data  out/game/src/entities  out/game/src/rooms  out/game/src/screens  out/game/res
+	$(MKDIR) -p  $(SRC)/boot  out/libs  out/game/libs  out/game/src/entities  out/game/src/objects  out/game/src/rooms  out/game/src/scenes  out/game/res
 
 
 out/rom.bin: out/rom.out

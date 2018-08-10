@@ -2,12 +2,12 @@
 
 #include "../../libs/listptr.h"
 
-#include "mytypes.h"
 #include "helpers.h"
 #include "object.h"
 
 #include "../libs/vram.h"
 #include "../libs/display.h"
+#include "../libs/mytypes.h"
 
 #include "GameObject.h"
 

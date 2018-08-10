@@ -7,7 +7,7 @@
 #include "../libs/display.h"
 #include "../libs/joyreader.h"
 
-#include "data/entities.h"
+#include "../inc/entities/players.h"
 
 
 
@@ -16,7 +16,7 @@ void player_init( )
     Object  o1;
     Sprite *s1;
 
-    o1.entity = (Entity*) &entity01;
+    o1.entity = (Entity*) &entityPlayer1;
 
     goPlayer1 = goManagerAdd ( &waObjects, &o1 );
     s1 = &waSprites [ wvSpriteCounter ];

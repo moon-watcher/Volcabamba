@@ -1,21 +1,20 @@
-#include <genesis.h>
+//#include <genesis.h>
 
-#include "mytypes.h"
-//#include "entity.h"
-#include "object.h"
-
-
-Object *objectCreate ( )
-{
-	return (Object *) MEM_alloc ( sizeof ( Object ) );
-}
+//#include "mytypes.h"
+//#include "object.h"
 
 
-void objectDelete ( Object *object )
-{
-	MEM_free ( object );
-	object = nullptr;
-}
+//Object *objectCreate ( )
+//{
+//	return (Object *) MEM_alloc ( sizeof ( Object ) );
+//}
+//
+//
+//void objectDelete ( Object *object )
+//{
+//	MEM_free ( object );
+//	object = nullptr;
+//}
 
 
 

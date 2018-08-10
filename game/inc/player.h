@@ -6,7 +6,7 @@
 #include "player.h"
 #include "GameObject.h"
 
-#include "../inc/data/entities.h"
+#include "../inc/entities/enemies.h"
 
 
 //Object      obPlayer1,  obPlayer2;

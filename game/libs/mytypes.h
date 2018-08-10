@@ -1,5 +1,5 @@
-#ifndef _INC_MYTYPES_H_
-#define _INC_MYTYPES_H_
+#ifndef _LIBS_MYTYPES_H_
+#define _LIBS_MYTYPES_H_
 
 typedef enum
 {
@@ -11,6 +11,6 @@ bool;
 #define zero    FIX32(0)
 #define nullptr ((void*)0)
 
-#endif // _INC_MYTYPES_H_
+#endif // _LIBS_MYTYPES_H_
 
 

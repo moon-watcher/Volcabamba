@@ -1,8 +1,9 @@
 #ifndef _INC_GAMEOBJECT_H_
 #define _INC_GAMEOBJECT_H_
 
-#include "mytypes.h"
-#include "object.h"
+#include "../libs/mytypes.h"
+
+#include "../inc/object.h"
 
 #include "../../libs/listptr.h"
 
